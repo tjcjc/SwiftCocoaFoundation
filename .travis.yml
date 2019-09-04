@@ -13,9 +13,7 @@ language: objective-c
 # cache: cocoapods
 podfile: PodfileCI
 before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - bundle install
-# - pod install
+- mv PodfileCI Podfile
 - mkdir -p test_output
 script:
 - bundle exec fastlane ci_test
