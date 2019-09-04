@@ -1,20 +1,24 @@
 PODS:
   - Nimble (8.0.2)
   - Quick (2.1.0)
+  - SwiftProtobuf (1.6.0)
 
 DEPENDENCIES:
   - Nimble
   - Quick
+  - SwiftProtobuf (~> 1.0)
 
 SPEC REPOS:
   trunk:
     - Nimble
     - Quick
+    - SwiftProtobuf
 
 SPEC CHECKSUMS:
   Nimble: 622629381bda1dd5678162f21f1368cec7cbba60
   Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  SwiftProtobuf: e905ca1366405696411aaf174411c4b19c0ef73d
 
-PODFILE CHECKSUM: 8fe5e5bada90c7135f493165eaf6697c567494b8
+PODFILE CHECKSUM: ea5aa7dec4a8b0c2c580d7f118ba663b7f204363
 
 COCOAPODS: 1.8.0.beta.2

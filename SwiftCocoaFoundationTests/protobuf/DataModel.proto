@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+message BookInfo {
+   int64 id = 1;
+   string title = 2;
+   string author = 3;
+}
+
+message User {
+    string name = 1;
+    repeated BookInfo books = 2;
+    map<string, BookInfo> selectedBooks = 3;
+}

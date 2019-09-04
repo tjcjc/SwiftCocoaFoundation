@@ -11,11 +11,11 @@ language: objective-c
 # xcode_scheme: platform=iOS Simulator,name=iPhone Xʀ,OS=13.0
 
 # cache: cocoapods
-podfile: Podfile
+podfile: PodfileCI
 before_install:
 # - gem install cocoapods # Since Travis is not always on latest version
 # - bundle install
-- pod install
+# - pod install
 - mkdir -p test_output
 script:
 - bundle exec fastlane ci_test

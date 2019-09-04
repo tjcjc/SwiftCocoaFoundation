@@ -19,8 +19,9 @@ included:
 
 
 excluded:
-  ./Pods
-  ./vendor/
+  - ./Pods
+  - ./vendor/
+  - SwiftCocoaFoundationTests/protobuf/DataModel.pb.swift
 
 function_body_length:
   warning: 50
