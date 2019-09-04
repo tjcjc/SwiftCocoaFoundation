@@ -11,7 +11,6 @@ language: objective-c
 # xcode_scheme: platform=iOS Simulator,name=iPhone Xʀ,OS=13.0
 
 # cache: cocoapods
-podfile: PodfileCI
 before_install:
 - mv PodfileCI Podfile
 - mkdir -p test_output
