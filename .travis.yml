@@ -22,5 +22,5 @@ after_success:
 - bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
 - echo $TRAVIS_BRANCH
 notifications:
-  slack: $SLACK_KEY
+  slack: jasontaiworkspace:ZDkT4i5r4YIKLKxhu3GxhnO9
   email: false
