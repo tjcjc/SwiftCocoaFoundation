@@ -1,6 +1,6 @@
 # SwiftCocoaFoundation
 
-[![CI Status](https://img.shields.io/travis/tjcjc/SwiftCocoaFoundation.svg?style=flat)](https://travis-ci.org//SwiftCocoaFoundation)
+[![CI Status](https://img.shields.io/travis/tjcjc/SwiftCocoaFoundation.svg?style=flat)](https://travis-ci.org/tjcjc/SwiftCocoaFoundation)
 [![codecov](https://codecov.io/gh/tjcjc/SwiftCocoaFoundation/branch/master/graph/badge.svg)](https://codecov.io/gh/tjcjc/SwiftCocoaFoundation)
 
 ## Author
