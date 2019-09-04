@@ -20,6 +20,7 @@
 		F051352F231FEDA800D616B7 /* DataModel.proto in Sources */ = {isa = PBXBuildFile; fileRef = F051352D231FEDA800D616B7 /* DataModel.proto */; };
 		F0513530231FEDA800D616B7 /* DataModel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051352E231FEDA800D616B7 /* DataModel.pb.swift */; };
 		F0513532231FF15B00D616B7 /* TestProtobuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0513531231FF15B00D616B7 /* TestProtobuf.swift */; };
+		F05135352320105600D616B7 /* CodableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05135342320105600D616B7 /* CodableTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F051352D231FEDA800D616B7 /* DataModel.proto */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.protobuf; path = DataModel.proto; sourceTree = "<group>"; };
 		F051352E231FEDA800D616B7 /* DataModel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.pb.swift; sourceTree = "<group>"; };
 		F0513531231FF15B00D616B7 /* TestProtobuf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProtobuf.swift; sourceTree = "<group>"; };
+		F05135342320105600D616B7 /* CodableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		F0513512231FDD0400D616B7 /* SwiftCocoaFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
+				F05135332320103700D616B7 /* Codable */,
 				F051352C231FEDA800D616B7 /* protobuf */,
 				F0513513231FDD0400D616B7 /* SwiftCocoaFoundationTests.swift */,
 				F0513515231FDD0400D616B7 /* Info.plist */,
@@ -165,6 +168,14 @@
 				F0513531231FF15B00D616B7 /* TestProtobuf.swift */,
 			);
 			path = protobuf;
+			sourceTree = "<group>";
+		};
+		F05135332320103700D616B7 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				F05135342320105600D616B7 /* CodableTest.swift */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,6 +391,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F051352F231FEDA800D616B7 /* DataModel.proto in Sources */,
+				F05135352320105600D616B7 /* CodableTest.swift in Sources */,
 				F0513530231FEDA800D616B7 /* DataModel.pb.swift in Sources */,
 				F0513532231FF15B00D616B7 /* TestProtobuf.swift in Sources */,
 				F0513514231FDD0400D616B7 /* SwiftCocoaFoundationTests.swift in Sources */,

@@ -14,12 +14,11 @@ language: objective-c
 before_install:
 - mv PodfileCI Podfile
 - mkdir -p test_output
-# script:
-# - bundle exec fastlane ci_test
-# - bundle exec danger
-# after_success:
-# - bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
-# - echo $TRAVIS_BRANCH
+script:
+- bundle exec fastlane ci_test
+- bundle exec danger
+after_success:
+- echo $TRAVIS_BRANCH
 notifications:
   slack: jasontaiworkspace:$SLACK_KEY
   email: false
