@@ -15,7 +15,7 @@ opt_in_rules:
 included:
 
 excluded:
-  Pods
+  ./Pods
 
 function_body_length:
   warning: 50
