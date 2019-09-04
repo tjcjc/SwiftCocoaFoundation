@@ -21,6 +21,7 @@
 		F0513530231FEDA800D616B7 /* DataModel.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = F051352E231FEDA800D616B7 /* DataModel.pb.swift */; };
 		F0513532231FF15B00D616B7 /* TestProtobuf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0513531231FF15B00D616B7 /* TestProtobuf.swift */; };
 		F05135352320105600D616B7 /* CodableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05135342320105600D616B7 /* CodableTest.swift */; };
+		F05135372320280100D616B7 /* EnumCodableTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05135362320280100D616B7 /* EnumCodableTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		F051352E231FEDA800D616B7 /* DataModel.pb.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.pb.swift; sourceTree = "<group>"; };
 		F0513531231FF15B00D616B7 /* TestProtobuf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProtobuf.swift; sourceTree = "<group>"; };
 		F05135342320105600D616B7 /* CodableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableTest.swift; sourceTree = "<group>"; };
+		F05135362320280100D616B7 /* EnumCodableTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumCodableTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				F05135342320105600D616B7 /* CodableTest.swift */,
+				F05135362320280100D616B7 /* EnumCodableTest.swift */,
 			);
 			path = Codable;
 			sourceTree = "<group>";
@@ -391,6 +394,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F051352F231FEDA800D616B7 /* DataModel.proto in Sources */,
+				F05135372320280100D616B7 /* EnumCodableTest.swift in Sources */,
 				F05135352320105600D616B7 /* CodableTest.swift in Sources */,
 				F0513530231FEDA800D616B7 /* DataModel.pb.swift in Sources */,
 				F0513532231FF15B00D616B7 /* TestProtobuf.swift in Sources */,
