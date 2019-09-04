@@ -20,7 +20,6 @@ before_install:
 script:
 - bundle exec fastlane ci_test
 - bundle exec danger
-- pod lib lint --allow-warnings --sources=https://github.com/tjcjc/Specs.git,https://github.com/CocoaPods/Specs.git
 after_success:
 - bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
 - echo $TRAVIS_BRANCH
