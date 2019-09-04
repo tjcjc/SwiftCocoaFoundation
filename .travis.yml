@@ -20,5 +20,5 @@ script:
 after_success:
 - echo $TRAVIS_BRANCH
 notifications:
-  slack: jasontaiworkspace:$SLACK_KEY
+  slack: jasontaiworkspace:ZDkT4i5r4YIKLKxhu3GxhnO9
   email: false
