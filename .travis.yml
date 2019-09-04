@@ -10,17 +10,16 @@ language: objective-c
 # xcode_workspace: Example/MDictParser.xcworkspace
 # xcode_scheme: platform=iOS Simulator,name=iPhone Xʀ,OS=13.0
 
-# cache: cocoapods
 # podfile: PodfileCI
-before_install:
-- mv PodfileCI Podfile
-- mkdir -p test_output
-script:
-- bundle exec fastlane ci_test
-- bundle exec danger
-after_success:
-- bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
-- echo $TRAVIS_BRANCH
+# before_install:
+# - mv PodfileCI Podfile
+# - mkdir -p test_output
+# script:
+# - bundle exec fastlane ci_test
+# - bundle exec danger
+# after_success:
+# - bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
+# - echo $TRAVIS_BRANCH
 notifications:
-  slack: jasontaiworkspace:ZDkT4i5r4YIKLKxhu3GxhnO9
+  slack: jasontaiworkspace:$SLACK_KEY
   email: false
