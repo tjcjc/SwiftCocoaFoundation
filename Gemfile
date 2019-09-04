@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem 'danger'
-gem 'pod'
+gem 'cocoapods'
 gem 'danger-gitlab'
 gem "fastlane"
 gem 'danger-swiftlint'
