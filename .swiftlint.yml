@@ -13,9 +13,14 @@ opt_in_rules:
   - force_unwrapping
 
 included:
+  - SwiftCocoaFoundation
+  - SwiftCocoaFoundationTests
+  - SwiftCocoaFoundationUITests
+
 
 excluded:
   ./Pods
+  ./vendor/
 
 function_body_length:
   warning: 50

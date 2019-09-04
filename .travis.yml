@@ -19,9 +19,6 @@ before_install:
 - mkdir -p test_output
 script:
 - bundle exec fastlane ci_test
-- ls
-- cat .swiftlint.yml
-- /usr/local/bin/swiftlint lint --config .swiftlint.yml
 - bundle exec danger
 after_success:
 - bash <(curl -s https://codecov.io/bash) -t 0eb495c2-c19c-4f90-a03a-29b504655a7b
