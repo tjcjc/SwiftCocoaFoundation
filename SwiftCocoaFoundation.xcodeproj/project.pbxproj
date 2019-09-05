@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		5885D55937F76CDFB1111C97 /* Pods_SwiftCocoaFoundationTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFBBF6DF6F2C980CC8293FD9 /* Pods_SwiftCocoaFoundationTests.framework */; };
 		C3660654209A519949922A7B /* Pods_SwiftCocoaFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16AA7BF56A4DB353BA3503C7 /* Pods_SwiftCocoaFoundation.framework */; };
+		F04FC1A82320FC2B002F8E23 /* DispatchQueueTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC1A72320FC2B002F8E23 /* DispatchQueueTest.swift */; };
+		F04FC1AA23211666002F8E23 /* DispatchGroupTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC1A923211666002F8E23 /* DispatchGroupTest.swift */; };
+		F04FC1AC232116EC002F8E23 /* ThreadUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC1AB232116EC002F8E23 /* ThreadUtils.swift */; };
+		F04FC1AE23211E3F002F8E23 /* DispatchSemaphoreTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC1AD23211E3F002F8E23 /* DispatchSemaphoreTest.swift */; };
+		F04FC1B023211EC0002F8E23 /* ConcurrencySpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = F04FC1AF23211EC0002F8E23 /* ConcurrencySpec.swift */; };
 		F05134FA231FDD0300D616B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05134F9231FDD0300D616B7 /* AppDelegate.swift */; };
 		F05134FC231FDD0300D616B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05134FB231FDD0300D616B7 /* SceneDelegate.swift */; };
 		F05134FE231FDD0300D616B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05134FD231FDD0300D616B7 /* ViewController.swift */; };
@@ -44,6 +49,11 @@
 		E362CBFF915AB219EBFA4B14 /* Pods-SwiftCocoaFoundation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCocoaFoundation.debug.xcconfig"; path = "Target Support Files/Pods-SwiftCocoaFoundation/Pods-SwiftCocoaFoundation.debug.xcconfig"; sourceTree = "<group>"; };
 		E82FDAE79D35D82FC17E04BC /* Pods-SwiftCocoaFoundation-SwiftCocoaFoundationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftCocoaFoundation-SwiftCocoaFoundationUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftCocoaFoundation-SwiftCocoaFoundationUITests/Pods-SwiftCocoaFoundation-SwiftCocoaFoundationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		EFBBF6DF6F2C980CC8293FD9 /* Pods_SwiftCocoaFoundationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftCocoaFoundationTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F04FC1A72320FC2B002F8E23 /* DispatchQueueTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueTest.swift; sourceTree = "<group>"; };
+		F04FC1A923211666002F8E23 /* DispatchGroupTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupTest.swift; sourceTree = "<group>"; };
+		F04FC1AB232116EC002F8E23 /* ThreadUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadUtils.swift; sourceTree = "<group>"; };
+		F04FC1AD23211E3F002F8E23 /* DispatchSemaphoreTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchSemaphoreTest.swift; sourceTree = "<group>"; };
+		F04FC1AF23211EC0002F8E23 /* ConcurrencySpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcurrencySpec.swift; sourceTree = "<group>"; };
 		F05134F6231FDD0300D616B7 /* SwiftCocoaFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftCocoaFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05134F9231FDD0300D616B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F05134FB231FDD0300D616B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +117,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F04FC1A62320FADD002F8E23 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				F04FC1A72320FC2B002F8E23 /* DispatchQueueTest.swift */,
+				F04FC1A923211666002F8E23 /* DispatchGroupTest.swift */,
+				F04FC1AB232116EC002F8E23 /* ThreadUtils.swift */,
+				F04FC1AD23211E3F002F8E23 /* DispatchSemaphoreTest.swift */,
+				F04FC1AF23211EC0002F8E23 /* ConcurrencySpec.swift */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
 		F05134ED231FDD0300D616B7 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +168,7 @@
 		F0513512231FDD0400D616B7 /* SwiftCocoaFoundationTests */ = {
 			isa = PBXGroup;
 			children = (
+				F04FC1A62320FADD002F8E23 /* Concurrency */,
 				F05135332320103700D616B7 /* Codable */,
 				F051352C231FEDA800D616B7 /* protobuf */,
 				F0513513231FDD0400D616B7 /* SwiftCocoaFoundationTests.swift */,
@@ -393,12 +416,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F04FC1B023211EC0002F8E23 /* ConcurrencySpec.swift in Sources */,
+				F04FC1A82320FC2B002F8E23 /* DispatchQueueTest.swift in Sources */,
 				F051352F231FEDA800D616B7 /* DataModel.proto in Sources */,
 				F05135372320280100D616B7 /* EnumCodableTest.swift in Sources */,
 				F05135352320105600D616B7 /* CodableTest.swift in Sources */,
 				F0513530231FEDA800D616B7 /* DataModel.pb.swift in Sources */,
+				F04FC1AC232116EC002F8E23 /* ThreadUtils.swift in Sources */,
+				F04FC1AE23211E3F002F8E23 /* DispatchSemaphoreTest.swift in Sources */,
 				F0513532231FF15B00D616B7 /* TestProtobuf.swift in Sources */,
 				F0513514231FDD0400D616B7 /* SwiftCocoaFoundationTests.swift in Sources */,
+				F04FC1AA23211666002F8E23 /* DispatchGroupTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
